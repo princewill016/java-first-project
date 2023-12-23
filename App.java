@@ -7,6 +7,7 @@ public class App {
     public static void main(String[] args) {
 
     }
+
 }
 
 /*
@@ -39,7 +40,40 @@ public class App {
  * int x = number.nextInt(6) + 1;
  * System.out.println(x);
  * 
+ * NEXTED LOOP INSIDE A LOOP
+ * 
+ * int row;
+ * int column;
+ * String character;
+ * try (Scanner scanner = new Scanner(System.in)) {
+ * System.out.println("enter the number of rows; ");
+ * row = scanner.nextInt();
+ * System.out.println("enter the number of column; ");
+ * column = scanner.nextInt();
+ * System.out.println("enter  character; ");
+ * character = scanner.next();
+ * }
+ * 
+ * for (int i = 1; i <= row; i++) {
+ * System.out.println();
+ * for (int j = 1; j <= column; j++) {
+ * System.out.print(character);
+ * }
+ * }
  * 
  * 
+ * FOR LOOP
+ * String[] cars = { "BMW", "Ford Edge", "toyota corrola", "toyota sienna",
+ * "mini bus" };
  * 
+ * for (int i = 0; i < cars.length; i++)
+ * System.out.println(cars[i]);
+ * 
+ * // ADD NUMBERS
+ * int a = 3;
+ * int b = 3;
+ * System.out.println(adding(a, b));
+ * static int adding(int a, int b) {
+ * return a * b;
+ * }
  */
