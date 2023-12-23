@@ -7,7 +7,6 @@ public class App {
     public static void main(String[] args) {
 
     }
-
 }
 
 /*
@@ -76,4 +75,32 @@ public class App {
  * static int adding(int a, int b) {
  * return a * b;
  * }
+ * 
+ * CONSTRUCTOR
+ * 
+ * Car myCar = new Car("Toyota", "Prado", 2000, "red");
+ * 
+ * System.out.println(myCar.name);
+ * System.out.println(myCar.color);
+ * System.out.println();
+ * myCar.onAc();
+ * 
+ * String make;
+ * String name;
+ * int year;
+ * String color;
+ * 
+ * Car(String make, String name, int year, String color) {
+ * this.make = make;
+ * this.name = name;
+ * this.year = year;
+ * this.color = color;
+ * }
+ * 
+ * void onAc() {
+ * System.out.println("you just turned on the ac");
+ * }
+ * 
+ * 
+ * 
  */
