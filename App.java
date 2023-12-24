@@ -3,8 +3,16 @@
 // import javax.swing.JOptionPane;
 // import java.util.Random;
 
+import javax.swing.JFrame;
+
 public class App {
     public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        frame.setSize(420, 420);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+        frame.setTitle("Frame title goes in here!!");
+        frame.setResizable(false);
 
     }
 }
